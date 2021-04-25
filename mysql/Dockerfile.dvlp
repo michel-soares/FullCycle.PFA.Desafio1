@@ -1,0 +1,10 @@
+FROM mysql:5.7
+
+ENV MYSQL_DATABASE=nodedb
+ENV MYSQL_ROOT_PASSWORD=root
+
+#WORKDIR /usr/src/app
+
+#EXPOSE 3000
+CMD [ "--innodb-use-native-aio=0" ]
+
