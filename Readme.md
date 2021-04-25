@@ -24,7 +24,7 @@
 
 3. Iniciar a imagem do nginx
 
-    docker run -d --network michelgsoares-pfa1 --name pfa1-nginx -p 8081:80 michelgsoares/nginx:pfa_desafio1
+    docker run -d --network michelgsoares-pfa1 --name pfa1-nginx -p 8080:80 michelgsoares/nginx:pfa_desafio1
 
     * Se a imagem não estiver mais disponivel no docker hub usar os passos abaixo para "buildar"
         a. build: 
@@ -33,7 +33,7 @@
     
 4. Acessar o site:
 
-    http://localhost:8081
+    http://localhost:8080
     
         
 
